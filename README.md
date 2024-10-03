@@ -21,7 +21,8 @@
 
 | ⚠️ **Atenção** |
 |:---------------|
-| Para esse ambiente utilizaremos o Debian como Sistema Operacional que possui o GLPI Instalado. |
+| Para esse ambiente utilizaremos o Debian como Sistema Operacional que possui o GLPI Instaladoe. |
+| Além das demais configurações, zona=southamerica-east1-a e region=southamerica-east1. |
 
 #### Passo 1: Instalar Docker no Debian
 
@@ -143,7 +144,8 @@ Crie um cluster no Google Kubernetes Engine:
 
 ```bash
 gcloud container clusters create glpi-cluster \
-    --zone southamerica-east1-a
+    --zone southamerica-east1-a \
+    --num-nodes 2
 ```
 
 #### Passo 3: Configurar o Deployment no Kubernetes
