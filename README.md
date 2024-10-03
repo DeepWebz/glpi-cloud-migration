@@ -18,7 +18,10 @@
 ## Passo a Passo para Containerizar e Subir o GLPI no GCP
 
 ### 1. **Containerizar o GLPI**
-> ⚠️ **Atenção**: Para esse ambiente utilizaremos o Debian como Sistema Operacional que possui o GLPI Instalado.
+
+| ⚠️ **Atenção** |
+|:---------------|
+| Para esse ambiente utilizaremos o Debian como Sistema Operacional que possui o GLPI Instalado. |
 
 #### Passo 1: Instalar Docker no Debian
 
