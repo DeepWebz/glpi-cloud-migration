@@ -21,8 +21,9 @@
 
 | ⚠️ **Atenção** |
 |:---------------|
-| Para esse ambiente utilizaremos o Debian como Sistema Operacional que possui o GLPI Instaladoe. |
-| Além das demais configurações, zona=southamerica-east1-a e region=southamerica-east1. |
+| Para esse ambiente utilizaremos o Debian como Sistema Operacional que possui o GLPI Instalado. |
+| Além das demais configurações;|
+| zone=southamerica-east1-a e region=southamerica-east1. |
 
 #### Passo 1: Instalar Docker no Debian
 
